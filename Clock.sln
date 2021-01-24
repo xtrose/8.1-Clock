@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clock", "Clock\Clock.csproj", "{1BC63455-A2A8-463D-A4D8-8785EC7C3B01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundAgent", "BackgroundAgent\BackgroundAgent.csproj", "{0B3FC240-C954-4141-821B-0D19B2E605AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BC63455-A2A8-463D-A4D8-8785EC7C3B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BC63455-A2A8-463D-A4D8-8785EC7C3B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BC63455-A2A8-463D-A4D8-8785EC7C3B01}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1BC63455-A2A8-463D-A4D8-8785EC7C3B01}.Debug|ARM.ActiveCfg = Debug|ARM
+		{1BC63455-A2A8-463D-A4D8-8785EC7C3B01}.Debug|ARM.Build.0 = Debug|ARM
+		{1BC63455-A2A8-463D-A4D8-8785EC7C3B01}.Debug|ARM.Deploy.0 = Debug|ARM
+		{1BC63455-A2A8-463D-A4D8-8785EC7C3B01}.Debug|x86.ActiveCfg = Debug|x86
+		{1BC63455-A2A8-463D-A4D8-8785EC7C3B01}.Debug|x86.Build.0 = Debug|x86
+		{1BC63455-A2A8-463D-A4D8-8785EC7C3B01}.Debug|x86.Deploy.0 = Debug|x86
+		{1BC63455-A2A8-463D-A4D8-8785EC7C3B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BC63455-A2A8-463D-A4D8-8785EC7C3B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BC63455-A2A8-463D-A4D8-8785EC7C3B01}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1BC63455-A2A8-463D-A4D8-8785EC7C3B01}.Release|ARM.ActiveCfg = Release|ARM
+		{1BC63455-A2A8-463D-A4D8-8785EC7C3B01}.Release|ARM.Build.0 = Release|ARM
+		{1BC63455-A2A8-463D-A4D8-8785EC7C3B01}.Release|ARM.Deploy.0 = Release|ARM
+		{1BC63455-A2A8-463D-A4D8-8785EC7C3B01}.Release|x86.ActiveCfg = Release|x86
+		{1BC63455-A2A8-463D-A4D8-8785EC7C3B01}.Release|x86.Build.0 = Release|x86
+		{1BC63455-A2A8-463D-A4D8-8785EC7C3B01}.Release|x86.Deploy.0 = Release|x86
+		{0B3FC240-C954-4141-821B-0D19B2E605AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B3FC240-C954-4141-821B-0D19B2E605AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B3FC240-C954-4141-821B-0D19B2E605AB}.Debug|ARM.ActiveCfg = Debug|ARM
+		{0B3FC240-C954-4141-821B-0D19B2E605AB}.Debug|ARM.Build.0 = Debug|ARM
+		{0B3FC240-C954-4141-821B-0D19B2E605AB}.Debug|x86.ActiveCfg = Debug|x86
+		{0B3FC240-C954-4141-821B-0D19B2E605AB}.Debug|x86.Build.0 = Debug|x86
+		{0B3FC240-C954-4141-821B-0D19B2E605AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B3FC240-C954-4141-821B-0D19B2E605AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B3FC240-C954-4141-821B-0D19B2E605AB}.Release|ARM.ActiveCfg = Release|ARM
+		{0B3FC240-C954-4141-821B-0D19B2E605AB}.Release|ARM.Build.0 = Release|ARM
+		{0B3FC240-C954-4141-821B-0D19B2E605AB}.Release|x86.ActiveCfg = Release|x86
+		{0B3FC240-C954-4141-821B-0D19B2E605AB}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

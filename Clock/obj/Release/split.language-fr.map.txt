@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-fr"
+"ResourceDimensions"		"language-fr-fr"
+
+[Files]
+"D:\Eigene Dateien\Projekte\Windows Phone\8.1 Clock\Clock\Clock\obj\Release\split.language-fr.pri"			"resources.pri"

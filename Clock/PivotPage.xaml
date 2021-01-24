@@ -1,0 +1,254 @@
+﻿<Page
+    x:Class="Clock.PivotPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Clock"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Coding4Fun.Toolkit.Controls"
+    xmlns:data="using:Clock.Data"
+    mc:Ignorable="d"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.Transitions>
+        <TransitionCollection>
+            <NavigationThemeTransition>
+                <NavigationThemeTransition.DefaultNavigationTransitionInfo>
+                    <CommonNavigationTransitionInfo IsStaggeringEnabled="True"/>
+                </NavigationThemeTransition.DefaultNavigationTransitionInfo>
+            </NavigationThemeTransition>
+        </TransitionCollection>
+    </Page.Transitions>
+
+    <Grid>
+
+
+
+        <!--Logo-->
+        <Image Name="ImgLogo" Source="Images/Logo.Dark.png" Width="150" Height="150" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,-25,-25,0" Opacity="0.2"/>
+
+
+
+        <!--Überschrift-->
+        <Pivot x:Uid="002_Header" Title="8.1 Clock" x:Name="pivot" CommonNavigationTransitionInfo.IsStaggerElement="True">
+
+
+
+            <!--Pivot item, My Clock-->
+            <PivotItem
+                x:Uid="002_Design"
+                Margin="19,14.5,0,0"
+                Header="design"
+                DataContext="{Binding FirstGroup}"
+                d:DataContext="{Binding Groups[0], Source={d:DesignData Source=/DataModel/SampleData.json, Type=data:SampleDataSource}}"
+                CommonNavigationTransitionInfo.IsStaggerElement="True">
+
+                <!--Design-->
+                <ScrollViewer>
+                    <StackPanel HorizontalAlignment="Left" Margin="0,0,0,60">
+                        <StackPanel x:Name="spPin" Orientation="Horizontal" Margin="12,0,0,24" PointerReleased="Pin_Click"  >
+                            <Image x:Name="imgPin" Source="Images/Pin.Dark.png" Height="50" VerticalAlignment="Top" HorizontalAlignment="Left" />
+                            <Image x:Name="imgArrow" Source="Images/Arrow.Dark.png" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="28,0,0,0" />
+                        </StackPanel>
+                        
+                        <StackPanel Name="SpDesign0" Orientation="Horizontal" Height="124" Width="366" Margin="-6,0,0,0" Background="{ThemeResource PhoneBackgroundBrush}" PointerReleased="Design0_Click">
+                            <Grid Width="100" Height="100" Background="{ThemeResource PhoneAccentBrush}" Margin="18,12,12,12">
+                                <StackPanel Margin="4" >
+                                    <TextBlock x:Name="TbDesign0_Medium_Line1" Text="" FontSize="15" />
+                                    <TextBlock x:Name="TbDesign0_Medium_Line2" Text="" TextWrapping="Wrap" FontSize="8" />
+                                </StackPanel>
+                            </Grid>
+                            <Grid Width="206" Height="100" Background="{ThemeResource PhoneAccentBrush}" Margin="12" >
+                                <StackPanel Margin="4" >
+                                    <TextBlock x:Name="TbDesign0_Big_Line1" Text="" FontSize="15" />
+                                    <TextBlock x:Name="TbDesign0_Big_Line2" Text="" TextWrapping="Wrap" FontSize="8" />
+                                </StackPanel>
+                            </Grid>
+                        </StackPanel>
+
+                        <StackPanel Name="SpDesign1" Orientation="Horizontal" Height="124" Width="366" Margin="-6,0,0,0" Background="{ThemeResource PhoneBackgroundBrush}" PointerReleased="Design1_Click">
+                            <Grid Width="100" Height="100" Background="{ThemeResource PhoneAccentBrush}" Margin="18,12,12,12">
+                                <StackPanel Margin="4" >
+                                    <TextBlock x:Name="TbDesign1_Medium_Line1" Text="" FontSize="15" />
+                                    <TextBlock x:Name="TbDesign1_Medium_Line2" Text="" TextWrapping="Wrap" FontSize="8" />
+                                </StackPanel>
+                            </Grid>
+                            <Grid Width="206" Height="100" Background="{ThemeResource PhoneAccentBrush}" Margin="12" >
+                                <StackPanel Margin="4" >
+                                    <TextBlock x:Name="TbDesign1_Big_Line1" Text="" TextWrapping="Wrap" FontSize="15" />
+                                </StackPanel>
+                            </Grid>
+                        </StackPanel>
+
+                        <StackPanel Name="SpDesign2" Orientation="Horizontal" Height="124" Width="366" Margin="-6,0,0,0" Background="{ThemeResource PhoneBackgroundBrush}" PointerReleased="Design2_Click">
+                            <Grid Width="100" Height="100" Background="{ThemeResource PhoneAccentBrush}" Margin="18,12,12,12">
+                                <StackPanel Margin="4" Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Right" >
+                                    <TextBlock x:Name="TbDesign2_Medium_Line1" Text="" FontSize="12" VerticalAlignment="Bottom" Margin="0,0,0,5" />
+                                    <TextBlock x:Name="TbDesign2_Medium_Line2" Text="" TextWrapping="Wrap" FontSize="27" FontWeight="Bold" VerticalAlignment="Bottom" />
+                                </StackPanel>
+                            </Grid>
+                            <Grid Width="206" Height="100" Background="{ThemeResource PhoneAccentBrush}" Margin="12" >
+                                <StackPanel Margin="4" >
+                                    <TextBlock x:Name="TbDesign2_Big_Line3" Text="" FontSize="10" />
+                                    <TextBlock x:Name="TbDesign2_Big_Line4" Text="" FontSize="10" />
+                                    <TextBlock x:Name="TbDesign2_Big_Line5" Text="" FontSize="10" />
+                                </StackPanel>
+                                <StackPanel Margin="4" Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Right" >
+                                    <TextBlock x:Name="TbDesign2_Big_Line1" Text="" FontSize="12" VerticalAlignment="Bottom" Margin="0,0,0,5" />
+                                    <TextBlock x:Name="TbDesign2_Big_Line2" Text="" TextWrapping="Wrap" FontSize="27" FontWeight="Bold" VerticalAlignment="Bottom" />
+                                </StackPanel>
+                            </Grid>
+                        </StackPanel>
+                    </StackPanel>
+                </ScrollViewer>
+
+            </PivotItem>
+
+
+
+            <!--Pivot item, My Clock-->
+            <PivotItem
+                x:Uid="002_Settings"
+                Margin="19,14.5,0,0"
+                Header="settings"
+                DataContext="{Binding FirstGroup}"
+                d:DataContext="{Binding Groups[0], Source={d:DesignData Source=/DataModel/SampleData.json, Type=data:SampleDataSource}}"
+                CommonNavigationTransitionInfo.IsStaggerElement="True">
+
+                <!--Einstellungen-->
+                <StackPanel>
+                    <ScrollViewer>
+                        <StackPanel HorizontalAlignment="Left" Margin="0,0,0,60">
+                            <TextBlock x:Uid="002_BatteryStatus" Text="Battery status" FontSize="20" FontWeight="Bold"/>
+                            <Button x:Name="BtnBatteryStatus" Width="360" Click="BtnBatteryStatus_Click"/>
+                            
+                            <!--
+                            <StackPanel Orientation="Horizontal" Margin="0,36,0,0" >
+                                <Image x:Name="imgBrush" Source="Images/Brush.Dark.png" Width="50" />
+                                <Rectangle x:Name="recBrush" Fill="{ThemeResource PhoneAccentBrush}" Width="236" Margin="12,0,12,0" />
+                                <Image x:Name="imgBrushDelete" Source="Images/Delete.Dark.png" Width="50" />
+                            </StackPanel>
+                            -->
+                        </StackPanel>
+                    </ScrollViewer>
+                </StackPanel>
+
+            </PivotItem>
+
+
+
+            <!--Pivot item, About-->
+            <PivotItem
+                x:Uid="002_About"
+                Margin="19,14.5,0,0"
+                Header="about"
+                DataContext="{Binding SecondGroup}"
+                d:DataContext="{Binding Groups[1], Source={d:DesignData Source=/DataModel/SampleData.json, Type=data:SampleDataSource}}">
+
+                <!--About-->
+                <ScrollViewer>
+                    <StackPanel HorizontalAlignment="Left" Margin="0,0,0,60">
+
+                        <!--Version und Buy-->
+                        <StackPanel Name="SPTrial" Margin="0,12,0,0" PointerReleased="btnBuy">
+                            <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
+                                <Image Source="Images/buy.png" Height="40" Margin="12,0,0,0" VerticalAlignment="Top"/>
+                                <StackPanel>
+                                    <TextBlock x:Uid="002_TrialVersion" Text="Trial version" FontSize="22" Margin="12,0,0,0" FontWeight="Bold" Foreground="White" />
+                                    <TextBlock Name="TBTrialTime" Text="" FontSize="18"  Margin="12,0,0,0" Foreground="White" />
+                                    <TextBlock x:Uid="002_Buy" Text="Buy this app" FontSize="22" Margin="12,12,0,0" Foreground="White" PointerReleased="btnBuy" VerticalAlignment="Center"/>
+                                    <TextBlock Name="TBPrice" Text="" FontSize="18" Margin="12,0,0,0" Foreground="White" PointerReleased="btnBuy" VerticalAlignment="Center"/>
+                                </StackPanel>
+                            </StackPanel>
+                        </StackPanel>
+
+                        <!--Rate-->
+                        <StackPanel Orientation="Horizontal" Margin="0,12,0,0" PointerReleased="btnRate">
+                            <Image Source="Images/rate.png" Height="40" Margin="12,0,0,0" VerticalAlignment="Center" />
+                            <TextBlock x:Uid="002_RateBtn" Text="Rate this app" FontSize="22" Margin="12,0,0,0" Foreground="White" VerticalAlignment="Center"  />
+                        </StackPanel>
+
+                        <!--Facebook-->
+                        <StackPanel Orientation="Horizontal" Margin="0,12,0,0" PointerReleased="btnFacebook">
+                            <Image Source="Images/facebook.png" Height="40" Margin="12,0,0,0" VerticalAlignment="Center" />
+                            <TextBlock x:Uid="002_Like" Text="Like xtrose" FontSize="22" Margin="12,0,0,0" Foreground="White" VerticalAlignment="Center" />
+                        </StackPanel>
+
+                        <!--Other Apps-->
+                        <StackPanel Orientation="Horizontal" Margin="0,12,0,0" PointerReleased="btnOther">
+                            <Image Source="Images/xtrose.png" Height="40" Margin="12,0,0,0" VerticalAlignment="Center" />
+                            <TextBlock x:Uid="002_Other" Text="Other xtrose apps" FontSize="22" Margin="12,0,0,0" Foreground="White" VerticalAlignment="Center" />
+                        </StackPanel>
+
+                        <!--Button Language-->
+                        <StackPanel Orientation="Horizontal" Margin="12,48,0,0" PointerReleased="OpenLanguageMenu">
+                            <Image x:Name="ImgLanguage" Source="Images/Globe.Dark.png" Height="36" VerticalAlignment="Center" />
+                            <TextBlock x:Uid="002_Language" Text="Language" FontSize="22" Margin="12,0,0,0" Foreground="White" VerticalAlignment="Center" />
+                        </StackPanel>
+
+                        <!--Info-->
+                        <StackPanel VerticalAlignment="Bottom" Margin="12,48,0,0">
+                            <TextBlock x:Uid="002_AppName" Text="8.1 Clock" FontSize="20" FontWeight="Bold" Foreground="White" />
+                            <TextBlock x:Uid="002_ThankYou" Text="Thank you for downloading" FontSize="20" Foreground="White" />
+                            <TextBlock Text="Copyright © xtrose 2014" FontSize="20" Foreground="White" />
+                        </StackPanel>
+
+                    </StackPanel>
+                </ScrollViewer>
+
+            </PivotItem>
+
+        </Pivot>
+
+
+
+        
+        
+        <Grid x:Name="GrSettings" Background="{ThemeResource PhoneBackgroundBrush}" Visibility="Collapsed">
+            <TextBlock x:Name="TbSettings" Text="Loading" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,0,0,50" FontSize="22" />
+        </Grid>
+
+
+
+        <Grid x:Name="GrLanguage" Background="{ThemeResource PhoneBackgroundBrush}" Visibility="Collapsed">
+            <StackPanel Margin="12">
+
+                <TextBlock x:Uid="002_Language.Text" Text="Language" FontSize="26" FontFamily="Segoe WP"/>
+                <TextBlock x:Uid="002_SelectLanguage" Text="Select Language" Margin="0,12,0,0" FontSize="18" />
+
+                <ListBox Name="LBLanguages" Margin="0,12,-0.167,0" ItemsSource="{Binding ClassLanguages}" SelectionChanged="LanguagesChange" Background="Transparent" Foreground="White" Height="526" >
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Margin="0,12,0,0">
+                                <TextBlock Text="{Binding name}" TextWrapping="NoWrap" FontSize="26" VerticalAlignment="Center" Margin="0,0,0,0" Foreground="LightGray"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+
+            </StackPanel>
+        </Grid>
+
+
+
+        <Grid x:Name="GrRate" Background="{ThemeResource PhoneBackgroundBrush}" Visibility="Collapsed">
+            <ScrollViewer >
+                <StackPanel Margin="12">
+
+                    <TextBlock x:Uid="002_RateHeader" Name="TBTop" FontSize="26" FontFamily="Segoe WP"/>
+                    <TextBlock x:Uid="002_RateText" TextWrapping="Wrap" Margin="0,12,0,0" FontSize="18" />
+
+                    <Button x:Uid="002_RateCnt" Name="BtnRateRate" FontSize="23" FontFamily="Segoe WP Light" HorizontalAlignment="Left" Click="BtnRateRate_click" Margin="0,36,0,0" Width="360"/>
+                    <Button x:Uid="002_Later" Name="BtnRateLater" FontSize="23" FontFamily="Segoe WP Light" HorizontalAlignment="Left" Click="BtnRateLater_click" Margin="0,12,0,0" Width="360"/>
+                    <Button x:Uid="002_Never" Name="BtnRateNever" FontSize="23" FontFamily="Segoe WP Light" HorizontalAlignment="Left" Click="BtnRateNever_click" Margin="0,12,0,0" Width="360"/>
+
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+
+
+
+    </Grid>
+
+
+</Page>

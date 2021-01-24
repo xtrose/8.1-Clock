@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="6490xtrose.8.1Clock" version="1.0" primary="true">
+		<Qualifiers>
+			<Language>EN-US</Language>
+			<Scale>240</Scale>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://6490xtrose.8.1Clock/Files/App.xbf">
+				<Candidate type="Path">
+					<Value>App.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Clock.xr.xml" uri="ms-resource://6490xtrose.8.1Clock/Files/Clock.xr.xml">
+				<Candidate type="Path">
+					<Value>Clock.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PivotPage.xbf" uri="ms-resource://6490xtrose.8.1Clock/Files/PivotPage.xbf">
+				<Candidate type="Path">
+					<Value>PivotPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="Logo.png" uri="ms-resource://6490xtrose.8.1Clock/Files/Assets/Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallLogo.png" uri="ms-resource://6490xtrose.8.1Clock/Files/Assets/SmallLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\SmallLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://6490xtrose.8.1Clock/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square71x71Logo.png" uri="ms-resource://6490xtrose.8.1Clock/Files/Assets/Square71x71Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\Square71x71Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://6490xtrose.8.1Clock/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="WideLogo.png" uri="ms-resource://6490xtrose.8.1Clock/Files/Assets/WideLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\WideLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Common">
+				<NamedResource name="ReadMe.txt" uri="ms-resource://6490xtrose.8.1Clock/Files/Common/ReadMe.txt">
+					<Candidate type="Path">
+						<Value>Common\ReadMe.txt</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="DataModel">
+				<NamedResource name="SampleData.json" uri="ms-resource://6490xtrose.8.1Clock/Files/DataModel/SampleData.json">
+					<Candidate type="Path">
+						<Value>DataModel\SampleData.json</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Images">
+				<NamedResource name="Arrow.Dark.png" uri="ms-resource://6490xtrose.8.1Clock/Files/Images/Arrow.Dark.png">
+					<Candidate type="Path">
+						<Value>Images\Arrow.Dark.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Arrow.Light.png" uri="ms-resource://6490xtrose.8.1Clock/Files/Images/Arrow.Light.png">
+					<Candidate type="Path">
+						<Value>Images\Arrow.Light.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Brush.Dark.png" uri="ms-resource://6490xtrose.8.1Clock/Files/Images/Brush.Dark.png">
+					<Candidate type="Path">
+						<Value>Images\Brush.Dark.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Brush.Light.png" uri="ms-resource://6490xtrose.8.1Clock/Files/Images/Brush.Light.png">
+					<Candidate type="Path">
+						<Value>Images\Brush.Light.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="buy.png" uri="ms-resource://6490xtrose.8.1Clock/Files/Images/buy.png">
+					<Candidate type="Path">
+						<Value>Images\buy.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Delete.Dark.png" uri="ms-resource://6490xtrose.8.1Clock/Files/Images/Delete.Dark.png">
+					<Candidate type="Path">
+						<Value>Images\Delete.Dark.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Delete.Light.png" uri="ms-resource://6490xtrose.8.1Clock/Files/Images/Delete.Light.png">
+					<Candidate type="Path">
+						<Value>Images\Delete.Light.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Facebook.png" uri="ms-resource://6490xtrose.8.1Clock/Files/Images/Facebook.png">
+					<Candidate type="Path">
+						<Value>Images\Facebook.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="FirstTileSquare.png" uri="ms-resource://6490xtrose.8.1Clock/Files/Images/FirstTileSquare.png">
+					<Candidate type="Path">
+						<Value>Images\FirstTileSquare.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="FirstTileWide.png" uri="ms-resource://6490xtrose.8.1Clock/Files/Images/FirstTileWide.png">
+					<Candidate type="Path">
+						<Value>Images\FirstTileWide.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Globe.Dark.png" uri="ms-resource://6490xtrose.8.1Clock/Files/Images/Globe.Dark.png">
+					<Candidate type="Path">
+						<Value>Images\Globe.Dark.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Globe.Light.png" uri="ms-resource://6490xtrose.8.1Clock/Files/Images/Globe.Light.png">
+					<Candidate type="Path">
+						<Value>Images\Globe.Light.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Logo.Dark.png" uri="ms-resource://6490xtrose.8.1Clock/Files/Images/Logo.Dark.png">
+					<Candidate type="Path">
+						<Value>Images\Logo.Dark.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Logo.Light.png" uri="ms-resource://6490xtrose.8.1Clock/Files/Images/Logo.Light.png">
+					<Candidate type="Path">
+						<Value>Images\Logo.Light.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Pin.Dark.png" uri="ms-resource://6490xtrose.8.1Clock/Files/Images/Pin.Dark.png">
+					<Candidate type="Path">
+						<Value>Images\Pin.Dark.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Pin.Light.png" uri="ms-resource://6490xtrose.8.1Clock/Files/Images/Pin.Light.png">
+					<Candidate type="Path">
+						<Value>Images\Pin.Light.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="rate.png" uri="ms-resource://6490xtrose.8.1Clock/Files/Images/rate.png">
+					<Candidate type="Path">
+						<Value>Images\rate.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="xtrose.png" uri="ms-resource://6490xtrose.8.1Clock/Files/Images/xtrose.png">
+					<Candidate type="Path">
+						<Value>Images\xtrose.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Resources">
+			<NamedResource name="000_Discription" uri="ms-resource://6490xtrose.8.1Clock/Resources/000_Discription">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Your watch on your home screen.
+
+With battery indicator.
+
+Many different designs.
+
+Minutes exactly.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="000_Word_1" uri="ms-resource://6490xtrose.8.1Clock/Resources/000_Word_1">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>watch</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="000_Word_2" uri="ms-resource://6490xtrose.8.1Clock/Resources/000_Word_2">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>time</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="000_Word_3" uri="ms-resource://6490xtrose.8.1Clock/Resources/000_Word_3">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>battery</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="000_Word_4" uri="ms-resource://6490xtrose.8.1Clock/Resources/000_Word_4">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>home screen</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="000_Word_5" uri="ms-resource://6490xtrose.8.1Clock/Resources/000_Word_5">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>live</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="000_Word_6" uri="ms-resource://6490xtrose.8.1Clock/Resources/000_Word_6">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>tile</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="001_AppName" uri="ms-resource://6490xtrose.8.1Clock/Resources/001_AppName">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>8.1 Clock</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="001_Language" uri="ms-resource://6490xtrose.8.1Clock/Resources/001_Language">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>en-us</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="002_Buyed" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_Buyed">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>You already bought this app.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="002_BuyFailed" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_BuyFailed">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The transaction failed. 
+You still have a trial license for this app.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="002_BuySuccessfully" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_BuySuccessfully">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>You now have the full version.
+Thank you for the purchase.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="002_Close" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_Close">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>close</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="002_Day" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_Day">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>day</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="002_Days" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_Days">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>days</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="002_Hour" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_Hour">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>hour</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="002_Hours" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_Hours">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>hours</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="002_IsLoading" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_IsLoading">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>is loading</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="002_Minute" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_Minute">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>minute</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="002_Minutes" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_Minutes">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>minutes</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="002_NameBattery" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_NameBattery">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Battery</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="002_No" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_No">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>no</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="002_NoteUpdateFullVersion" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_NoteUpdateFullVersion">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Congratulations, your full version has been released.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="002_NoUpdate" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_NoUpdate">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>No update available</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="002_PeriodExpired" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_PeriodExpired">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Trial period expired</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="002_PleaseWait" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_PleaseWait">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Please wait</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="002_Restart" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_Restart">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Restart to apply settings</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="002_SelectLanguageString" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_SelectLanguageString">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Select language.
+App must be restarted.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="002_StillTrial" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_StillTrial">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>You still have a trial license for this app.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="002_Warning" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_Warning">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Warning</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="002_Yes" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_Yes">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>yes</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="002_About">
+				<NamedResource name="Header" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_About/Header">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>about</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="002_AppName">
+				<NamedResource name="Text" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_AppName/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>8.1 CLOCK</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="002_BatteryStatus">
+				<NamedResource name="Text" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_BatteryStatus/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Battery status</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="002_Buy">
+				<NamedResource name="Text" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_Buy/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Buy this app</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="002_Check">
+				<NamedResource name="Content" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_Check/Content">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>check</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="002_CheckForUpdates">
+				<NamedResource name="Text" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_CheckForUpdates/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Check for updates</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="002_Design">
+				<NamedResource name="Header" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_Design/Header">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>design</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="002_Header">
+				<NamedResource name="Title" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_Header/Title">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>8.1 CLOCK</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="002_Language">
+				<NamedResource name="Text" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_Language/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Language</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="002_Later">
+				<NamedResource name="Content" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_Later/Content">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>later</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="002_Like">
+				<NamedResource name="Text" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_Like/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Like xtrose</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="002_Never">
+				<NamedResource name="Content" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_Never/Content">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>never</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="002_Other">
+				<NamedResource name="Text" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_Other/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Other xtrose apps</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="002_RateBtn">
+				<NamedResource name="Text" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_RateBtn/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Rate this app</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="002_RateCnt">
+				<NamedResource name="Content" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_RateCnt/Content">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>rate</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="002_RateHeader">
+				<NamedResource name="Text" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_RateHeader/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Rate this app</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="002_RateText">
+				<NamedResource name="Text" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_RateText/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>This application seems to appeal to you.
+To program apps is time consuming and difficult.
+A good review can help us to spread it further.
+
+Thank you very much</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="002_SelectLanguage">
+				<NamedResource name="Text" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_SelectLanguage/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Select language</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="002_Settings">
+				<NamedResource name="Header" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_Settings/Header">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>settings</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="002_ThankYou">
+				<NamedResource name="Text" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_ThankYou/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Thank you for downloading</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="002_TrialVersion">
+				<NamedResource name="Text" uri="ms-resource://6490xtrose.8.1Clock/Resources/002_TrialVersion/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Trial version</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

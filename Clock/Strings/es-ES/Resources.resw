@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+  
+  
+  
+  
+  
+  <data name="001_Language" xml:space="preserve">
+<value>es-es</value>
+</data>
+  <data name="002_About.Header" xml:space="preserve">
+<value>acerca de</value>
+</data>
+  <data name="002_AppName.Text" xml:space="preserve">
+<value>8.1 RELOJ</value>
+</data>
+  <data name="002_BatteryStatus.Text" xml:space="preserve">
+<value>Estado de la batería</value>
+</data>
+  <data name="002_Buy.Text" xml:space="preserve">
+<value>Comprar esta aplicación</value>
+</data>
+  <data name="002_Buyed" xml:space="preserve">
+<value>Ya compraron esta aplicación.</value>
+</data>
+  <data name="002_BuyFailed" xml:space="preserve">
+<value>La transacción no se pudo.
+Todavía tienes una licencia de prueba para esta aplicación.</value>
+</data>
+  <data name="002_BuySuccessfully" xml:space="preserve">
+<value>Ahora tiene la versión completa.
+Gracias por la compra.</value>
+</data>
+  <data name="002_Close" xml:space="preserve">
+<value>cerca</value>
+</data>
+  <data name="002_Day" xml:space="preserve">
+<value>día</value>
+</data>
+  <data name="002_Days" xml:space="preserve">
+<value>días</value>
+</data>
+  <data name="002_Design.Header" xml:space="preserve">
+<value>diseño</value>
+</data>
+  <data name="002_Header.Title" xml:space="preserve">
+<value>8.1 RELOJ</value>
+</data>
+  <data name="002_Hour" xml:space="preserve">
+<value>hora</value>
+</data>
+  <data name="002_Hours" xml:space="preserve">
+<value>horas</value>
+</data>
+  <data name="002_IsLoading" xml:space="preserve">
+<value>carga</value>
+</data>
+  <data name="002_Language.Text" xml:space="preserve">
+<value>Idioma</value>
+</data>
+  <data name="002_Like.Text" xml:space="preserve">
+<value>Como xtrose</value>
+</data>
+  <data name="002_Minute" xml:space="preserve">
+<value>minuto</value>
+</data>
+  <data name="002_Minutes" xml:space="preserve">
+<value>minutos</value>
+</data>
+  <data name="002_NameBattery" xml:space="preserve">
+<value>Batería</value>
+</data>
+  <data name="002_No" xml:space="preserve">
+<value>no</value>
+</data>
+  <data name="002_Other.Text" xml:space="preserve">
+<value>Otras aplicaciones xtrose</value>
+</data>
+  <data name="002_PeriodExpired" xml:space="preserve">
+<value>Expirado el período de prueba de</value>
+</data>
+  <data name="002_RateBtn.Text" xml:space="preserve">
+<value>Tasa de esta aplicación</value>
+</data>
+  <data name="002_Settings.Header" xml:space="preserve">
+<value>ajustes</value>
+</data>
+  <data name="002_StillTrial" xml:space="preserve">
+<value>Tienes una licencia de prueba para esta aplicación.</value>
+</data>
+  <data name="002_ThankYou.Text" xml:space="preserve">
+<value>Gracias por descargar</value>
+</data>
+  <data name="002_TrialVersion.Text" xml:space="preserve">
+<value>Versión de prueba</value>
+</data>
+  <data name="002_Yes" xml:space="preserve">
+<value>Sí</value>
+</data>
+  <data name="002_Check.Content" xml:space="preserve">
+<value>de cheque</value>
+</data>
+  <data name="002_CheckForUpdates.Text" xml:space="preserve">
+<value>Comprobación de actualizaciones</value>
+</data>
+  <data name="002_NoteUpdateFullVersion" xml:space="preserve">
+<value>Felicidades, ha lanzado su versión completa.</value>
+</data>
+  <data name="002_NoUpdate" xml:space="preserve">
+<value>No ninguna actualización disponible</value>
+</data>
+  <data name="002_PleaseWait" xml:space="preserve">
+<value>Por favor espera</value>
+</data>
+  <data name="002_Restart" xml:space="preserve">
+<value>Reiniciar para aplicar la configuración</value>
+</data>
+  <data name="001_AppName" xml:space="preserve">
+<value>8.1 Reloj</value>
+</data>
+  <data name="002_Later.Content" xml:space="preserve">
+<value>más tarde</value>
+</data>
+  <data name="002_Never.Content" xml:space="preserve">
+<value>No nunca</value>
+</data>
+  <data name="002_RateCnt.Content" xml:space="preserve">
+<value>tarifa</value>
+</data>
+  <data name="002_RateHeader.Text" xml:space="preserve">
+<value>Tasa de esta aplicación</value>
+</data>
+  <data name="002_RateText.Text" xml:space="preserve">
+<value>Esta aplicación parece apelar a usted.
+Programa de aplicaciones es lento y difícil.
+Una buena crítica puede ayudarnos a difundirlo más lejos.
+
+Muchas gracias</value>
+</data>
+  <data name="002_SelectLanguage.Text" xml:space="preserve">
+<value>Selección de idioma</value>
+</data>
+  <data name="002_SelectLanguageString" xml:space="preserve">
+<value>Selección del idioma.
+La aplicación debe reiniciarse.</value>
+</data>
+  <data name="002_Warning" xml:space="preserve">
+<value>Aviso</value>
+</data>
+  
+  
+<data name="000_Discription" xml:space="preserve">
+<value>El reloj en la pantalla principal.
+Con el indicador de batería.
+Muchos diseños diferentes.
+Minutos exactamente.</value>
+</data>
+  <data name="000_Word_1" xml:space="preserve">
+<value>reloj</value>
+</data>
+  <data name="000_Word_2" xml:space="preserve">
+<value>tiempo</value>
+</data>
+  <data name="000_Word_3" xml:space="preserve">
+<value>batería</value>
+</data>
+  <data name="000_Word_4" xml:space="preserve">
+<value>pantalla de inicio</value>
+</data>
+  <data name="000_Word_5" xml:space="preserve">
+<value>vivo</value>
+</data>
+  <data name="000_Word_6" xml:space="preserve">
+<value>azulejo</value>
+</data>  
+  
+  
+</root>

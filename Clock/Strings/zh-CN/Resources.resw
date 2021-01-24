@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="001_Language" xml:space="preserve">
+    <value>zh-cn</value>
+  </data>
+  <data name="002_About.Header" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="002_BatteryStatus.Text" xml:space="preserve">
+    <value>电池状态</value>
+  </data>
+  <data name="002_Buy.Text" xml:space="preserve">
+    <value>购买此应用</value>
+  </data>
+  <data name="002_Buyed" xml:space="preserve">
+    <value>您已经购买了此应用。</value>
+  </data>
+  <data name="002_BuyFailed" xml:space="preserve">
+    <value>购买失败。
+您仍处于应用的试用版。</value>
+  </data>
+  <data name="002_BuySuccessfully" xml:space="preserve">
+    <value>您已升级到完整版 。
+感谢您的购买。</value>
+  </data>
+  <data name="002_Close" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="002_Day" xml:space="preserve">
+    <value>天</value>
+  </data>
+  <data name="002_Days" xml:space="preserve">
+    <value>天</value>
+  </data>
+  <data name="002_Design.Header" xml:space="preserve">
+    <value>设计</value>
+  </data>
+  <data name="002_Hour" xml:space="preserve">
+    <value>小时</value>
+  </data>
+  <data name="002_Hours" xml:space="preserve">
+    <value>小时</value>
+  </data>
+  <data name="002_IsLoading" xml:space="preserve">
+    <value>充电中</value>
+  </data>
+  <data name="002_Language.Text" xml:space="preserve">
+    <value>界面语言</value>
+  </data>
+  <data name="002_Like.Text" xml:space="preserve">
+    <value>喜欢xtrose，来交流吧</value>
+  </data>
+  <data name="002_Minute" xml:space="preserve">
+    <value>分钟</value>
+  </data>
+  <data name="002_Minutes" xml:space="preserve">
+    <value>分钟</value>
+  </data>
+  <data name="002_NameBattery" xml:space="preserve">
+    <value>电池电量</value>
+  </data>
+  <data name="002_No" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="002_Other.Text" xml:space="preserve">
+    <value>更多xtrose的应用</value>
+  </data>
+  <data name="002_PeriodExpired" xml:space="preserve">
+    <value>您的试用版已过期</value>
+  </data>
+  <data name="002_RateBtn.Text" xml:space="preserve">
+    <value>评价此应用</value>
+  </data>
+  <data name="002_Settings.Header" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="002_StillTrial" xml:space="preserve">
+    <value>您仍处于应用的试用版。</value>
+  </data>
+  <data name="002_ThankYou.Text" xml:space="preserve">
+    <value>谢谢您的使用</value>
+  </data>
+  <data name="002_TrialVersion.Text" xml:space="preserve">
+    <value>试用版</value>
+  </data>
+  <data name="002_Yes" xml:space="preserve">
+    <value>开启</value>
+  </data>
+  <data name="002_Check.Content" xml:space="preserve">
+    <value>检查更新</value>
+  </data>
+  <data name="002_CheckForUpdates.Text" xml:space="preserve">
+    <value>检查更新</value>
+  </data>
+  <data name="002_NoteUpdateFullVersion" xml:space="preserve">
+    <value>恭喜，您已升级到完整版。</value>
+  </data>
+  <data name="002_NoUpdate" xml:space="preserve">
+    <value>没有可用的更新</value>
+  </data>
+  <data name="002_PleaseWait" xml:space="preserve">
+    <value>请稍等</value>
+  </data>
+  <data name="002_Restart" xml:space="preserve">
+    <value>重新应用以使变更生效</value>
+  </data>
+  <data name="002_Later.Content" xml:space="preserve">
+    <value>稍候评价</value>
+  </data>
+  <data name="002_Never.Content" xml:space="preserve">
+    <value>不想评价</value>
+  </data>
+  <data name="002_RateCnt.Content" xml:space="preserve">
+    <value>评价</value>
+  </data>
+  <data name="002_RateHeader.Text" xml:space="preserve">
+    <value>评价此应用</value>
+  </data>
+  <data name="002_RateText.Text" xml:space="preserve">
+    <value>我们的应用似乎很对您的口味。
+编写应用是非常耗时和困难的，我们在此希望您能给予一个良好的评价来帮助我们进一步推广它。
+
+我们再次对您表示感谢！</value>
+  </data>
+  <data name="002_SelectLanguage.Text" xml:space="preserve">
+    <value>选择界面语言</value>
+  </data>
+  <data name="002_SelectLanguageString" xml:space="preserve">
+    <value>选择界面语言。
+应用必须重启来适应新的界面语言。</value>
+  </data>
+  <data name="002_Warning" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="000_Discription" xml:space="preserve">
+    <value>您现在可以用它在开始屏幕监控您的手机状态。
+它能够显示您的电池电量详情。
+它内置多种不同的磁贴设计。
+当然，它能够每分钟刷新磁贴状态。</value>
+  </data>
+  <data name="000_Word_1" xml:space="preserve">
+    <value>监控</value>
+  </data>
+  <data name="000_Word_2" xml:space="preserve">
+    <value>续航时间</value>
+  </data>
+  <data name="000_Word_3" xml:space="preserve">
+    <value>电池电量</value>
+  </data>
+  <data name="000_Word_4" xml:space="preserve">
+    <value>开始屏幕</value>
+  </data>
+  <data name="000_Word_5" xml:space="preserve">
+    <value>动态</value>
+  </data>
+  <data name="000_Word_6" xml:space="preserve">
+    <value>磁贴</value>
+  </data>
+</root>

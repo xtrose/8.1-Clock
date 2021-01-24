@@ -1,0 +1,2 @@
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Clock\Clock\BackgroundAgent\BackgroundAgent.csproj;neutral
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Clock\Clock\Clock\Clock.csproj;neutral
